@@ -1,0 +1,123 @@
+.hero {
+  width: 100%;
+  padding: 80px 8%;
+  padding-top: 150px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero_btns {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero_info {
+  width: 55%;
+}
+
+.hero_info h2 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.hero_info p {
+  font-family: "poppins";
+  /* color: magenta; */
+  font-size: 1rem; 
+  font-weight: 500;
+}
+
+.hero_info h2 span {
+  color: var(--main-color);
+  filter: drop-shadow(0 0 1px var(--main-color));
+  position: relative;
+}
+
+.hero_info p {
+  margin-bottom: 20px;
+}
+
+.social_icons {
+  margin-bottom: 30px;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.social_icons i {
+  height: 60px;
+  width: 60px;
+  font-size: 25px;
+  border-radius: 50px;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+  box-shadow: 0 0 10px var(--main-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.social_icons i:hover {
+  box-shadow: 0 5px 16px var(--main-color);
+  color: #fff;
+  transform: translateY(-5px);
+  transition: 0.6s;
+  background-color: var(--main-color);
+  cursor: pointer;
+}
+
+.hero_img {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border-radius: 50%;
+  transition: 0.6s;
+}
+
+.hero_img img {
+  background-color: #6262ff;
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: 0.6s;
+  border: 1px solid var(--main-color);
+  box-shadow: 0 0 10px var(--main-color);
+  flex-direction: row;
+}
+
+.hero_img img:hover {
+  box-shadow: 0 0 80px var(--main-color);
+  transform: translateY(-15px);
+}
+
+@media (max-width:950px) {
+    .hero{
+      flex-direction: column;
+    }
+    .hero_info{
+      width: 100%;
+      margin-bottom: 50px;
+    }
+    .hero_img{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero_img img{
+      width: 500px;
+      height: 500px;
+    }
+}
+
+@media (max-width:550px){
+  .hero_img img{
+    width: 60vw;
+    height: 60vw;
+  }
+}

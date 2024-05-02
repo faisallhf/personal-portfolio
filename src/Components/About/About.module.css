@@ -1,0 +1,177 @@
+.pro{
+  font-size: 40px;
+}
+
+
+.aboutsize {
+  width: 100%;
+  height: 1000px;
+  justify-content: center;
+}
+.flex_container {
+  display: flex;
+  color: #fff;
+  justify-content: center;
+}
+
+.flex_child {
+  flex: 1;
+  color: #fff;
+  height: 23rem;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.flex_child p {
+  padding: 15px;
+  font-weight: 650;
+}
+.flex_child:first-child {
+  margin-right: 20px;
+  color: #fff;
+}
+.flex_child .pname {
+  font-size: 35px;
+  font-weight: 700;
+  color: var(--main-color);
+}
+h1 {
+  font-size: 35px;
+  color: #fff;
+  text-align: center;
+}
+.flex_child h2 {
+  font-size: 35px;
+}
+.flex_child p{
+  font-size: 20px;
+}
+
+.text {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  position: relative;
+  float: left;
+  align-items: center;
+  justify-content: center;
+  background: #18a75f;
+  font-weight: bold;
+  gap: 20px;
+}
+.fullbar {
+  background: #7F8389;
+  width: 100%;
+  height: 40px;
+  margin: 20px;
+}
+.skills .bar {
+  width: 70px;
+  height: 40px;
+  background: #FF3131;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+.skills {
+  padding-right: 40px;
+}
+.fullbar:nth-child(1) .bar {
+  animation-name: animateTo80;
+}
+
+.fullbar:nth-child(2) .bar {
+  animation-name: animateTo50;
+}
+.fullbar:nth-child(3) .bar {
+  animation-name: animateTo70;
+}
+
+.fullbar:nth-child(4) .bar {
+  animation-name: animateTo85;
+}
+.fullbar:nth-child(5) .bar {
+  animation-name: animateTo75;
+}
+.fullbar:nth-child(6) .bar {
+  animation-name: animateTo65;
+}
+.fullbar:nth-child(7) .bar {
+  animation-name: animateTo77;
+}
+
+@keyframes animateTo80 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes animateTo50 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@keyframes animateTo70 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes animateTo85 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@keyframes animateTo75 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 55%;
+  }
+}
+@keyframes animateTo65 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 65%;
+  }
+}
+@keyframes animateTo77 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 77%;
+  }
+}
+
+
+@media (max-width:950px) {
+  .flex_container{
+    flex-direction: column;
+  }
+  .aboutsize{
+      width: 100%;
+      height: 1356px;
+  }
+  .flex_child{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .h1{
+    margin-bottom: 12%;
+  }
+}
