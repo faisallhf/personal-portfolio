@@ -63,7 +63,7 @@ function About() {
                     </div>
 
                     <div className={AboutCSS.fullbar}>
-                        <div className={AboutCSS.text}>React</div>
+                        <div className={AboutCSS.text}>Bootstrap</div>
                         <div className={AboutCSS.bar}></div>
                     </div>
 

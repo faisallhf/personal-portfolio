@@ -8,13 +8,14 @@ import livepng from "./../../../public/live.png";
 import githubpng from "./../../../public/github.png";
 
 function Projects() {
+    AOS.init();
     return (
         <>
             <section id="projects">
                 <div>
                     <h1 className={ProjectsCSS.pro}>Projects</h1>
                     <div className={ProjectsCSS.flex_container}>
-                        <div className={ProjectsCSS.flex_child}>
+                        <div className={ProjectsCSS.flex_child} data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
 
                             <div className={ProjectsCSS.movies}>
                                 <img src={movies_sitepng} alt="movies site" />
@@ -29,21 +30,21 @@ function Projects() {
                             <a href="https://github.com/faisallhf/movies-website-" target="_blank"><div className={ProjectsCSS.repo}> <img src={githubpng} alt="Github Png" />Github Repository</div> </a>
                         </div>
 
-                        <div className={ProjectsCSS.flex_child}>
+                        <div className={ProjectsCSS.flex_child} data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
                             <div className={ProjectsCSS.movies}>
                                 <img src={portfoliopng} alt="portfolio site" />
                             </div>
                             <h1 className={ProjectsCSS.mh1}>Portfolio</h1>
                             <p className={ProjectsCSS.pdata}>Stunning Personal Website using React JS, Type-Writer and Different Animations</p>
 
-                            <a href="https://uzzam-portfolio.netlify.app/" target="_blank"><div className={ProjectsCSS.live}> <img src={livepng} alt="Live Png" />Live Preview</div></a>
+                            <a href="https://personalportfolio-flnytmlar-faisal-ishaq-khans-projects.vercel.app/" target="_blank"><div className={ProjectsCSS.live}> <img src={livepng} alt="Live Png" />Live Preview</div></a>
                             <a href="https://github.com/faisallhf/personal-portfolio" target="_blank"><div className={ProjectsCSS.repo}> <img src={githubpng} alt="Github Png" />Github Repository</div> </a>
                         </div>
                     </div>
 
 
                     <div className={ProjectsCSS.flex_container}>
-                        <div className={ProjectsCSS.flex_child}>
+                        <div className={ProjectsCSS.flex_child} data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
                             <div className={ProjectsCSS.movies}>
                                 <img src={weatherpng} alt="weather site" />
                             </div>
@@ -53,7 +54,7 @@ function Projects() {
                             <a href="https://github.com/faisallhf/weather-app-api" target="_blank"><div className={ProjectsCSS.repo}> <img src={githubpng} alt="Github Png" />Github Repository</div> </a>
                         </div>
 
-                        <div className={ProjectsCSS.flex_child}>
+                        <div className={ProjectsCSS.flex_child} data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
                             <div className={ProjectsCSS.movies}>
                                 <img src={agencypng} alt="agency site" />
                             </div>

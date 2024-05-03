@@ -7,14 +7,14 @@ import {Typewriter} from "react-simple-typewriter";
 import CV from "./../../../public/FAISAL ISHAQ.pdf";
 
 function Header() {
-
+    AOS.init();
     return (
         <>
-        <section id="home">
+        <section id="hero">
             <div className={HeaderCSS.hero}>
                 <div className={HeaderCSS.hero_info}>
 
-                    <h2>Hi, I am {' '}
+                    <h2 data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1000">Hi, I am {' '}
                         <span>
                             {}
                         <Typewriter
@@ -28,21 +28,21 @@ function Header() {
                         />
                         </span>
                     </h2>   
-                    <p>I have a degree in Software Engineering.<br />I Love Implementing new designs .</p>
+                    <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1100">I design and code beautifully simple things.<br />I like to code things from scratch and enjoy it.</p>
 
-                    <div className={HeaderCSS.social_icons}>
+                    <div className={HeaderCSS.social_icons} data-aos="fade" data-aos-duration="1500" data-aos-delay="1200">
                         {links.map((value, index) => (
                             <Socials key={index} link={value} icon={icons[index]} />
                         ))}
                     </div>
 
                     <div className={HeaderCSS.hero_btns}>
-                    <a href={CV} target="_blank"><button value="Download">Download CV</button></a>
-                    <button>Contact Me</button>
+                    <a href={CV} target="_blank"><button value="Download" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1300">Download CV</button></a>
+                    <a href="#contact"><button data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1400">Contact Me</button></a>
                     </div>
                 </div>
 
-                <div className={HeaderCSS.hero_img}>
+                <div className={HeaderCSS.hero_img} data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1500">
                     <img src={Hero} alt="Hero-Image" />
                 </div>
             </div>
