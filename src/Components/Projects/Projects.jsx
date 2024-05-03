@@ -37,7 +37,7 @@ function Projects() {
                             <h1 className={ProjectsCSS.mh1}>Portfolio</h1>
                             <p className={ProjectsCSS.pdata}>Stunning Personal Website using React JS, Type-Writer and Different Animations</p>
 
-                            <a href="https://personalportfolio-flnytmlar-faisal-ishaq-khans-projects.vercel.app/" target="_blank"><div className={ProjectsCSS.live}> <img src={livepng} alt="Live Png" />Live Preview</div></a>
+                            <a href="https://faisal-ishaq-khan-portfolio.vercel.app/" target="_blank"><div className={ProjectsCSS.live}> <img src={livepng} alt="Live Png" />Live Preview</div></a>
                             <a href="https://github.com/faisallhf/personal-portfolio" target="_blank"><div className={ProjectsCSS.repo}> <img src={githubpng} alt="Github Png" />Github Repository</div> </a>
                         </div>
                     </div>
