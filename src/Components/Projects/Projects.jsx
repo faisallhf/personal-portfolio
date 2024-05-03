@@ -37,7 +37,7 @@ function Projects() {
                             <p className={ProjectsCSS.pdata}>Stunning Personal Website using React JS, Type-Writer and Different Animations</p>
 
                             <a href="https://uzzam-portfolio.netlify.app/" target="_blank"><div className={ProjectsCSS.live}> <img src={livepng} alt="Live Png" />Live Preview</div></a>
-                            <a href="https://uzzam-portfolio.netlify.app/" target="_blank"><div className={ProjectsCSS.repo}> <img src={githubpng} alt="Github Png" />Github Repository</div> </a>
+                            <a href="https://github.com/faisallhf/personal-portfolio" target="_blank"><div className={ProjectsCSS.repo}> <img src={githubpng} alt="Github Png" />Github Repository</div> </a>
                         </div>
                     </div>
 
