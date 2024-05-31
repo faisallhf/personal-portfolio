@@ -6,7 +6,7 @@ function Contact(){
       <>
       <section id="contact">
         <div className={ContactCSS.contact}>
-          <div>
+          <div className={ContactCSS.proclass}>
             <h2>Contact Me</h2>
           </div>
           <form data-aos="fade-right" data-aos-duration="1500" data-aos-delay="800">

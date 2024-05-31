@@ -8,10 +8,14 @@
   text-align: center;
   flex-direction: column;
 }
-
 .contact h2{
   font-size: 45px;
   text-align: center;
+  border-bottom: 0.5rem solid var(--main-color) ;
+}
+.proclass {
+  display: flex;
+  justify-content: center;
 }
 
 form{

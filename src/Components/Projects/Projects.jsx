@@ -13,7 +13,9 @@ function Projects() {
         <>
             <section id="projects">
                 <div>
-                    <h1 className={ProjectsCSS.pro}>Projects</h1>
+                   <div className={ProjectsCSS.proclass}>
+                   <h1 className={ProjectsCSS.pro}>Projects</h1>
+                   </div>
                     <div className={ProjectsCSS.flex_container}>
                         <div className={ProjectsCSS.flex_child} data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
 

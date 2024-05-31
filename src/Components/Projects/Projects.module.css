@@ -1,7 +1,14 @@
 .pro{
     font-size: 40px;
+    border-bottom: 0.5rem solid var(--main-color);
+    padding-bottom: 0.2rem;
+   margin-top: 5rem;
 }
 
+.proclass{
+    display: flex;
+    justify-content: center;  
+}
 .flex_container {
     display: flex;
     margin-bottom: 50px;
@@ -12,11 +19,11 @@
 
 .flex_child {
     flex: 1;
-    border: 2px solid #FF3131;
+    border: 2px solid #fff;
     height: 616px;
     margin-left: 80px;
     margin-right: 0px;
-    background-color: rgb(18, 18,18);
+    background-color: #434242;
     border-radius: 10px;
 }  
 
@@ -57,7 +64,7 @@
     justify-content: center;
     align-items: center;
     padding-right: 20px;
-    background-color: #18A75F;
+    background-color: #fff;
     margin-top: 5px;
     border-radius: 5px;
 }
@@ -68,7 +75,7 @@
     margin-right: 10px;
 }
 .live:hover,.repo:hover{
-    background:rgb(16, 201, 56);
+    background:#2DCC7D;
 }
 
 .repo{
@@ -82,7 +89,7 @@
     justify-content: center;
     align-items: center;
     padding-right: 20px;
-    background-color: #18A75F;
+    background-color: #fff;
     margin-top: 10px;
     border-radius: 5px;
     

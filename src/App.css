@@ -10,13 +10,15 @@
 }
 
 :root{
-  --main-color: #ff3131;
+  --main-color: #0BE779;
   --text-color: #fff;
   --text-color-2: #ffffffe1;
 }
 
 body{
-  background-color: rgb(18, 18,18);
+  /* background-color: rgb(18, 18,18); */
+  /* background-color: #374151; */
+  background-color: #374151;
   /* background-color: wheat; */
   /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH-pYllswJdzECYkp74sOS4A6NXdUkcwSe5Q&s"); */
   /* background-size: cover; */

@@ -8,7 +8,8 @@ function About() {
     <>
       <section id="about" className={AboutCSS.aboutsize}>
         <div>
-        <h1 className={AboutCSS.pro}>About</h1>
+          <div className= {AboutCSS.proclass}>
+        <h1 className={AboutCSS.pro}>About</h1></div>
         <div className={AboutCSS.flex_container}>
           <div className={AboutCSS.flex_child}>
             <div>
@@ -47,8 +48,17 @@ function About() {
 
             <div className={AboutCSS.skills}> 
 
+            <div className={AboutCSS.fullbar}>
+                        <div className={AboutCSS.text}>Tailwind</div>
+                        <div className={AboutCSS.bar}></div>
+                    </div>
+
                     <div className={AboutCSS.fullbar}>
                         <div className={AboutCSS.text}>JavaScript</div>
+                        <div className={AboutCSS.bar}></div>
+                    </div>
+                    <div className={AboutCSS.fullbar}>
+                        <div className={AboutCSS.text}>Java</div>
                         <div className={AboutCSS.bar}></div>
                     </div>
 
@@ -58,12 +68,12 @@ function About() {
                     </div>
 
                     <div className={AboutCSS.fullbar}>
-                        <div className={AboutCSS.text}>Tailwind</div>
+                        <div className={AboutCSS.text}>C++</div>
                         <div className={AboutCSS.bar}></div>
                     </div>
 
                     <div className={AboutCSS.fullbar}>
-                        <div className={AboutCSS.text}>Bootstrap</div>
+                        <div className={AboutCSS.text}>Firebase</div>
                         <div className={AboutCSS.bar}></div>
                     </div>
 
@@ -77,10 +87,8 @@ function About() {
                         <div className={AboutCSS.bar}></div>
                     </div>
 
-                    <div className={AboutCSS.fullbar}>
-                        <div className={AboutCSS.text}>C++</div>
-                        <div className={AboutCSS.bar}></div>
-                    </div>
+                
+                   
 
             </div>
           </div>

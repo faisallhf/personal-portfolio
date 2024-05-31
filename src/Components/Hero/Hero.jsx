@@ -18,7 +18,7 @@ function Header() {
                         <span>
                             {}
                         <Typewriter
-                            words={['Faisal Ishaq Khan', 'Web Developer', 'Video-Editor']}
+                            words={['Faisal Ishaq Khan','Mobile App Developer', 'Web Developer', 'Video-Editor']}
                             loop={true}
                             cursor
                             cursorStyle='|'

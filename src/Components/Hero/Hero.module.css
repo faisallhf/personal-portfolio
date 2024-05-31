@@ -1,11 +1,13 @@
 .hero {
   width: 100%;
+  height: 100vh;
   padding: 80px 8%;
-  padding-top: 150px;
+  /* padding-top: 150px; */
   color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #374151;
 }
 
 .hero_btns {
@@ -31,7 +33,7 @@
 
 .hero_info h2 span {
   color: var(--main-color);
-  filter: drop-shadow(0 0 1px var(--main-color));
+  /* filter: drop-shadow(0 0 1px var(--main-color)); */
   position: relative;
 }
 

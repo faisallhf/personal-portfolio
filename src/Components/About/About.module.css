@@ -1,12 +1,17 @@
-.pro{
+.pro {
   font-size: 40px;
+  border-bottom: 0.5rem solid var(--main-color);
 }
-
+.proclass {
+  display: flex;
+  justify-content: center;
+}
 
 .aboutsize {
   width: 100%;
-  height: 1000px;
+  height: 70vh;
   justify-content: center;
+  margin-bottom: 10rem;
 }
 .flex_container {
   display: flex;
@@ -43,7 +48,7 @@ h1 {
 .flex_child h2 {
   font-size: 35px;
 }
-.flex_child p{
+.flex_child p {
   font-size: 20px;
 }
 
@@ -55,12 +60,12 @@ h1 {
   float: left;
   align-items: center;
   justify-content: center;
-  background: #18a75f;
+  background: #2DCC7D;
   font-weight: bold;
   gap: 20px;
 }
 .fullbar {
-  background: #7F8389;
+  background: #4B5563;
   width: 100%;
   height: 40px;
   margin: 20px;
@@ -68,80 +73,40 @@ h1 {
 .skills .bar {
   width: 70px;
   height: 40px;
-  background: #FF3131;
+  background: #5EA36F;
   animation-duration: 3s;
   animation-fill-mode: forwards;
 }
-
 .skills {
   padding-right: 40px;
 }
 .fullbar:nth-child(1) .bar {
-  animation-name: animateTo80;
+  animation-name: Tailwind;
 }
-
 .fullbar:nth-child(2) .bar {
-  animation-name: animateTo50;
+  animation-name: Java;
 }
 .fullbar:nth-child(3) .bar {
-  animation-name: animateTo70;
+  animation-name: Firebase;
 }
-
 .fullbar:nth-child(4) .bar {
-  animation-name: animateTo85;
+  animation-name: Github;
 }
 .fullbar:nth-child(5) .bar {
-  animation-name: animateTo75;
+  animation-name: cplusplus;
 }
 .fullbar:nth-child(6) .bar {
-  animation-name: animateTo65;
+  animation-name: ReactJS;
 }
+
 .fullbar:nth-child(7) .bar {
-  animation-name: animateTo77;
+  animation-name: Python;
+}
+.fullbar:nth-child(8) .bar {
+  animation-name: Javascript;
 }
 
-@keyframes animateTo80 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 80%;
-  }
-}
-
-@keyframes animateTo50 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 50%;
-  }
-}
-@keyframes animateTo70 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 70%;
-  }
-}
-@keyframes animateTo85 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 85%;
-  }
-}
-@keyframes animateTo75 {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 55%;
-  }
-}
-@keyframes animateTo65 {
+@keyframes Javascript {
   0% {
     width: 0;
   }
@@ -149,7 +114,57 @@ h1 {
     width: 65%;
   }
 }
-@keyframes animateTo77 {
+
+@keyframes ReactJS {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@keyframes Tailwind {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@keyframes Firebase {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes Github {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes Python {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+@keyframes Java {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes cplusplus{
   0% {
     width: 0;
   }
@@ -158,20 +173,19 @@ h1 {
   }
 }
 
-
-@media (max-width:950px) {
-  .flex_container{
+@media (max-width: 950px) {
+  .flex_container {
     flex-direction: column;
   }
-  .aboutsize{
-      width: 100%;
-      height: 1356px;
+  .aboutsize {
+    width: 100%;
+    height: 1356px;
   }
-  .flex_child{
+  .flex_child {
     width: 100%;
     margin-bottom: 50px;
   }
-  .h1{
+  .h1 {
     margin-bottom: 12%;
   }
 }
